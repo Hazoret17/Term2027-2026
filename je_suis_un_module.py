@@ -7,6 +7,10 @@ version: 1
 def premiermodule():
     print("voici mon 1er module")
 
-premiermodule()
+
+if __name__ == "__main__":
+    premiermodule()
+
+
 print("contenu de la variable __doc__\n", __doc__)
 print("contenu de la variable __name__\n", __name__)
